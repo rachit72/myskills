@@ -1,0 +1,177 @@
+{"name": "complete", 
+"children": 
+	[{"name": "Domains", "children": [{"name": "Artificial Intelligence", 
+					  "children": [{"name": "Machine Learning", "children":
+												[{"name": "Deep Learning", "children":
+															[{"name": "Dense Neural nets", "size":1}, 
+															{"name": "Conv Nets", "size":1},
+															{"name": "Sequence Nets", "children":
+																									[{"name": "RNN", "size":1}, 
+																									{"name": "LSTM", "size":1},
+																									{"name": "GRU", "size":1}
+																									]},
+															{"name": "Word Embeddings", "children":
+																									[{"name": "Word2Vec", "size":1}, 
+																									{"name": "Glove", "size":1}
+																									]},
+															{"name": "GANs", "size":1}
+															]}, 
+												{"name": "Tree Based Models", "children":
+															[{"name": "Decision Tree", "size":1}, 
+															{"name": "Random Forests", "size":1},
+															{"name": "Bagging", "size":1},
+															{"name": "XG Boost", "size":1},
+															{"name": "Catboost", "size":1}
+															]}, 
+												{"name": "Linear Models", "children":
+																			[{"name": "Linear Regression", "size":1}, 
+																			{"name": "Logistic Regression", "size":1}
+												]}, 
+												{"name": "Bayesian methods", "children":
+																			[{"name": "Naive Bayes", "size":1}, 
+																			{"name": "Hidden Markov Models", "size":1}
+												]},
+												{"name": "Kernel Methods", "children":
+																			[{"name": "Support Vector Machines", "size":1}
+												]},
+												{"name": "ML Theory", "size":1},
+												{"name": "Anomaly Detection", "size":1},
+												{"name": "Unsupervised Learning", "children":
+																			[{"name": "Clustering", "size":1}, 
+																			{"name": "Dimensionality Reduction", "size":1}
+												]}
+												]
+									}, 
+								       {"name": "Search Algorithms", "children":
+														[{"name": "Depth First Search", "size":1}, 
+														{"name": "Breadth First Search", "size":1},
+														{"name": "A* search", "size":1},
+														{"name": "Dynamic Programming", "size":1},
+														{"name": "Line Of Sight Planner", "size":1}
+														]
+									}, 
+								       {"name": "Bayesian Filtering", "children":
+														[{"name": "Kalman Filter", "size":1}, 
+														{"name": "Particle Filer", "size":1}
+														]
+									},
+								       {"name": "Computer Vision", "children":
+														[{"name": "Image Processing", "children":
+																								[{"name": "Histogram Equalization", "size":1}, 
+																								{"name": "Edge Detection", "size":1},
+																								{"name": "Image Stitching", "size":1},
+																								{"name": "Image Transformation", "size":1},
+																								{"name": "Image Compression", "size":1}
+														]}, 
+														{"name": "Object Detection", "size":1},
+														{"name": "Image Recognition", "size":1}
+														]
+								    },
+								    	{"name": "Natural Language Processing", "children":
+																							[{"name": "Named Entity Recognition", "size":1}, 
+																							{"name": "Approximate String Similarity", "size":1},
+																							{"name": "Sentiment Analysis", "size":1},
+																							{"name": "Topic Modeling", "size":1}
+																							]
+									}
+							 	    ]
+									},
+									{"name": "Data Mining", "children":
+													[{"name": "Association Rules", "size": 1}, 
+													{"name": "Sequential Rule Mining", "size":1}
+													]},
+									{"name": "Time Series Forecasting", "children":
+															[{"name": "Moving Average", "size": 1}, 
+															{"name": "Exponential Smoothing", "size":1},
+															{"name": "ARIMA/SARIMA", "size":1},
+															{"name": "Exponential Smoothing", "size":1},
+															{"name": "RNN Based", "size":1}
+															]},
+									{"name": "Robotics", "children":
+															[{"name": "Inverse Kinematics", "size": 1}, 
+															{"name": "Motion Planning", "size":1},
+															{"name": "Robot Localization", "size":1},
+															{"name": "Sensor Fusion", "size":1}
+															]}
+					
+				 	]},
+	{"name": "Tools & Technologies", "children":
+					[	{"name": "Programming Languages",
+						  "children": [{"name": "Python", "size":1}, 
+							       {"name": "R", "size": 1}, 
+							       {"name": "MATLAB", "size" : 1},
+							       {"name": "C", "size": 1},
+							       {"name": "Javascript", "size": 1},
+							       {"name": "Html", "size": 1}
+						 	      ] 
+					 	},
+						{"name": "Databases", "children":
+								[{"name": "SQL", "size":1}, 
+								{"name": "MongoDB", "size":1},
+								{"name": "Neo4j", "size":1},
+								{"name": "Cypher QL", "size":1}
+							]}, 
+						{"name": "Data Visualization", "children":
+							[{"name": "D3 js / nvd3", "size":1}, 
+							{"name": "Dc js", "size":1},
+							{"name": "Matplotlib", "size":1},
+							{"name": "Seaborn", "size":1},
+							{"name": "Bokeh", "size":1},
+							{"name": "Ggplot", "size":1},
+							{"name": "Tableau", "size":1},
+							{"name": "Google Data Studio", "size":1}
+							]},
+						{"name": "Data Exploration", "children":
+							[{"name": "Pandas", "size":1}, 
+							{"name": "Numpy", "size":1},
+							{"name": "Scipy", "size":1}
+							]},
+						{"name": "Predictive Modeling", "children":
+							[{"name": "Scikit-learn", "size":1}, 
+							{"name": "Statsmodels", "size":1},
+							{"name": "Hmmlearn", "size":1},
+							{"name": "Rpart", "size":1}, 
+							{"name": "Xgboost", "size":1},
+							{"name": "Catboost", "size":1},
+							{"name": "Shap", "size":1}
+							]},
+						{"name": "Text Mining", "children":
+							[{"name": "Nltk", "size":1}, 
+							{"name": "Gensim", "size":1},
+							{"name": "Fuzzywuzzy", "size":1},
+							{"name": "Levenshtein", "size":1}
+							]},
+						{"name": "Deep Learning Frameworks", "children":
+																		[{"name": "Keras", "size":1}, 
+																		{"name": "Tensorflow", "size":1},
+																		{"name": "Tensorboard", "size":1}
+																		]},
+						{"name": "Big Data", "children":
+														[{"name": "PySpark", "size":1}, 
+														{"name": "Hadoop", "size":1},
+														{"name": "Hive", "size":1}
+														]},
+						{"name": "Cloud Platforms", "children":
+							[{"name": "Google Cloud Platform", "children":
+																		[{"name": "BigQuery", "size":1}, 
+																		{"name": "DataProc", "size":1},
+																		{"name": "Data Studio", "size":1},
+																		{"name": "Auto ML", "size":1},
+																		{"name": "NLP Api", "size":1}
+																		]}, 
+							{"name": "Microsoft Azure", "size":1}
+							]},
+						{"name": "Web Frameworks", "children":
+															[{"name": "Flask", "size":1}, 
+															{"name": "Django", "size":1}
+															]},
+						{"name": "Miscellanous", "children":
+															[{"name": "Git", "size":1}, 
+															{"name": "Latex", "size":1},
+															{"name": "Angular", "size":1},
+															{"name": "Docker", "size":1}
+															]}
+						]
+      	},
+	{"name": "Technical Documentation", "size":1}
+   ]}
